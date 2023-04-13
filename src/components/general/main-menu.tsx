@@ -15,13 +15,13 @@ const MainMenu = () => {
           </Link>
         ))}
       </nav>
-      <div className="hidden items-center gap-6 text-sm md:flex">
-        <Link
+      <div className="hidden items-center gap-6 md:flex">
+        {/* <Link
           className="rounded py-1 text-outrageous-orange-900 hover:text-outrageous-orange-900"
           href="/en"
         >
           English (EN)
-        </Link>
+        </Link> */}
         <Link
           className="rounded border border-outrageous-orange-900 bg-outrageous-orange-900 px-5 py-1 text-white shadow-md hover:bg-outrageous-orange-900 hover:shadow-none"
           href="/signin"

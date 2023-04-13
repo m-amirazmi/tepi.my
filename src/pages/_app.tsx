@@ -1,9 +1,10 @@
 import { type AppType } from "next/app";
-
 import { api } from "~/utils/api";
-
-import "~/styles/globals.css";
 import LayoutMain from "~/components/layouts/layout-main";
+
+import "swiper/css";
+import "swiper/css/pagination";
+import "~/styles/globals.css";
 
 const MyApp: AppType = ({ Component, pageProps }) => {
   return (

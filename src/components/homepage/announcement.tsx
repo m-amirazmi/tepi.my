@@ -4,8 +4,8 @@ import { HiArrowLongRight } from "react-icons/hi2";
 const Announcement = () => {
   return (
     <section className="w-full">
-      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-6">
-        <div className="flex w-full flex-col items-center justify-between gap-4 rounded bg-outrageous-orange-200/20 px-6 py-4 md:flex-row">
+      <div className="mx-auto flex max-w-6xl items-center justify-between px-4 pt-6">
+        <div className="flex w-full flex-col items-center justify-between gap-4 rounded bg-outrageous-orange-100 px-6 py-4 md:flex-row">
           <p>
             Join us and share any road side stalls you have visited here! Let
             others have the same experience with yours.

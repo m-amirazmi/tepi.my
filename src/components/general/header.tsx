@@ -8,7 +8,7 @@ const Header = () => {
       <div className="mx-auto flex max-w-6xl items-center justify-between px-4 py-5">
         <Link href="/" className="text-xl font-semibold tracking-wider">
           <span>TEPI</span>
-          <span className="text-outrageous-orange-400">.MY</span>
+          <span className="text-outrageous-orange-800">.MY</span>
         </Link>
         <MainMenu />
         <MobileMenu />
