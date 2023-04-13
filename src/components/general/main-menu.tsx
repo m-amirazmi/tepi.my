@@ -8,7 +8,7 @@ const MainMenu = () => {
         {menu.map((i) => (
           <Link
             key={i.id}
-            className="transition-colors duration-100 ease-linear hover:text-outrageous-orange-800"
+            className="transition-colors duration-100 ease-linear hover:text-outrageous-orange-900"
             href={i.link}
           >
             {i.name}
@@ -17,13 +17,13 @@ const MainMenu = () => {
       </nav>
       <div className="hidden items-center gap-6 text-sm md:flex">
         <Link
-          className="rounded py-1 text-outrageous-orange-800 hover:text-outrageous-orange-900"
+          className="rounded py-1 text-outrageous-orange-900 hover:text-outrageous-orange-900"
           href="/en"
         >
           English (EN)
         </Link>
         <Link
-          className="rounded border border-outrageous-orange-800 bg-outrageous-orange-800 px-5 py-1 text-white shadow-md hover:bg-outrageous-orange-900 hover:shadow-none"
+          className="rounded border border-outrageous-orange-900 bg-outrageous-orange-900 px-5 py-1 text-white shadow-md hover:bg-outrageous-orange-900 hover:shadow-none"
           href="/signin"
         >
           Sign In
