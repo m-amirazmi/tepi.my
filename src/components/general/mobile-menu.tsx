@@ -40,7 +40,7 @@ const MobileMenu = () => {
             <HiOutlineXMark />
           </div>
         </div>
-        <nav className="flex h-full w-full flex-col items-center justify-center gap-6 pb-20 text-xl">
+        {/* <nav className="flex h-full w-full flex-col items-center justify-center gap-6 pb-20 text-xl">
           {menu.map((i) => (
             <Link
               key={i.id}
@@ -64,7 +64,7 @@ const MobileMenu = () => {
               Sign In
             </Link>
           </div>
-        </nav>
+        </nav> */}
       </div>
     </div>
   );
