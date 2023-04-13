@@ -1,5 +1,6 @@
 import Head from "next/head";
 import { Jost } from "next/font/google";
+import Header from "../general/header";
 
 const jost = Jost({ subsets: ["latin"] });
 
@@ -14,6 +15,7 @@ const LayoutMain = ({ children }: { children: React.ReactNode }) => {
       <main
         className={`${jost.className} h-screen w-screen bg-gradient-to-b from-outrageous-orange-100 to-outrageous-orange-50`}
       >
+        <Header />
         {children}
       </main>
     </>
