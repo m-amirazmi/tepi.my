@@ -18,20 +18,18 @@ const LatestStalls = () => {
           View all
         </Link>
       </div>
-      <div className="">
-        <Swiper {...swiperSettings}>
-          {latest_stalls.map((i) => (
-            <SwiperSlide key={i.id}>
-              <div className="flex h-full w-full flex-col text-sm text-zinc-500">
-                <div className="flex h-60 w-full items-center justify-center rounded bg-zinc-200">
-                  Image Here
-                </div>
-                <div className="py-2">{i.name}</div>
+      <Swiper {...swiperSettings}>
+        {latest_stalls.map((i) => (
+          <SwiperSlide key={i.id}>
+            <div className="flex h-full w-full flex-col text-sm text-zinc-500">
+              <div className="flex h-60 w-full items-center justify-center rounded bg-zinc-200">
+                Image Here
               </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div>
+              <div className="py-2">{i.name}</div>
+            </div>
+          </SwiperSlide>
+        ))}
+      </Swiper>
     </section>
   );
 };

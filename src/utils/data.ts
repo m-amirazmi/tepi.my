@@ -27,6 +27,37 @@ export const menu = [
   },
 ];
 
+export const stall_categories = [
+  {
+    id: "1",
+    name: "Burger"
+  },
+  {
+    id: "2",
+    name: "Nasi Lemak"
+  },
+  {
+    id: "3",
+    name: "Lemang"
+  },
+  {
+    id: "4",
+    name: "Kuih Muih"
+  },
+  {
+    id: "5",
+    name: "Satay"
+  },
+  {
+    id: "6",
+    name: "Air Balang"
+  },
+  {
+    id: "7",
+    name: "Buah Potong"
+  },
+]
+
 export const latest_stalls = [
   {
     id:"1",
