@@ -25,7 +25,7 @@ const Home: NextPage = () => {
             <div
               className={`${
                 toggleMobileMenu ? "block" : "hidden"
-              } absolute -right-4 -top-5 h-screen w-screen translate-x-full animate-menu-slide-in bg-slate-50`}
+              } absolute -right-4 -top-5 h-screen w-screen bg-slate-50`}
             >
               <div className="flex px-4 py-5">
                 <div
