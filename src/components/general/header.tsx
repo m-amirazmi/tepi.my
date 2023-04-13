@@ -37,7 +37,7 @@ const Header = () => {
                 : animate
                 ? "animate-menu-slide-out"
                 : "hidden"
-            } mobile-menu fixed right-0 top-0 h-screen w-screen bg-slate-50`}
+            } mobile-menu fixed right-0 top-0 h-screen w-screen bg-white`}
           >
             <div className="flex px-4 py-5">
               <div
