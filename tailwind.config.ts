@@ -19,6 +19,20 @@ export default {
           "950": "#44060a",
         },
       },
+      keyframes: {
+        "menu-slide-in":{
+          '0%': { transform: 'translateX(100%)' },
+          '100%': { transform: 'translateX(0%)' },
+        },
+        "menu-slide-out":{
+          '0%': { transform: 'translateX(0%)' },
+          '100%': { transform: 'translateX(100%)' },
+        },
+      },
+      animation: {
+        "menu-slide-in": 'menu-slide-in 0.5s ease-out forwards',
+        "menu-slide-out": 'menu-slide-out 0.5s ease-out forwards'
+      }
     },
   },
   plugins: [],
