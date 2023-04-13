@@ -1,3 +1,4 @@
+import Link from "next/link";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { latest_stalls } from "~/utils/data";
 
@@ -11,7 +12,12 @@ const LatestStalls = () => {
 
   return (
     <section className="mx-auto max-w-6xl px-4 pt-6">
-      <h1 className="mb-3 text-xl md:text-2xl">Latest Stalls</h1>
+      <div className="flex items-center justify-between">
+        <h1 className="mb-3 text-xl md:text-2xl">Latest Stalls</h1>
+        <Link className="text-outrageous-orange-900" href="/#listings">
+          View all
+        </Link>
+      </div>
       <div className="">
         <Swiper {...swiperSettings}>
           {latest_stalls.map((i) => (
