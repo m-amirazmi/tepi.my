@@ -13,7 +13,7 @@ const LayoutMain = ({ children }: { children: React.ReactNode }) => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main
-        className={`${jost.className} h-screen w-screen bg-gradient-to-b from-outrageous-orange-100 to-outrageous-orange-50`}
+        className={`${jost.className} h-screen w-screen bg-gradient-to-b from-outrageous-orange-100 to-outrageous-orange-50 text-zinc-900`}
       >
         <Header />
         {children}
