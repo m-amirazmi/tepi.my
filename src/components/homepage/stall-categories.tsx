@@ -20,7 +20,7 @@ const StallCategories = () => {
               <div className="pb-2 pl-2">
                 <Link
                   href="/?"
-                  className="flex w-full cursor-pointer items-center justify-center rounded bg-zinc-200 p-2 text-zinc-500 shadow hover:bg-zinc-200/50 hover:shadow-none"
+                  className="flex w-full cursor-pointer items-center justify-center rounded bg-zinc-200 p-2 text-zinc-500 hover:bg-zinc-200/75"
                 >
                   {i.name}
                 </Link>
